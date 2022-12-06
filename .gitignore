@@ -1,0 +1,5 @@
+# Project exclude paths
+/chatGpt-darwin-x64/chatGpt.app/Contents/Resources/app/node_modules/
+/node_modules/
+./node_modules/
+./chatGpt-darwin-x64
