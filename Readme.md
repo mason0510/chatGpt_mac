@@ -1,9 +1,24 @@
-## 打包步骤:
-1.npm config set ELECTRON_MIRROR "https://cdn.npm.taobao.org/dist/electron/"
-2.npx electron-packager .
-3.npx electron-installer-dmg ./electron_mac-darwin-x64/electron_mac.app chat
+# ChatGPT for desktop
 
-4.重新打包
-npx electron-packager . --overwrite
+This is a simple app that makes ChatGPT live in your menubar.
 
+You can use Cmd+Shift+G (Mac) or Ctrl+Shift+G (Win) to quickly open it from anywhere.
+
+Download:
+
+- [Mac Intel .dmg](https://github.com/mason0510/chatGpt_mac/blob/master/chatGpt.dmg)
+
+No Windows binaries currently offered. Clone the repo, npm install electron-forge and run.
+
+<p align="center">
+  <img src="./images/screenshot.jpeg" width="500">
+</p>
+
+## Credit
+
+All credit and copyrights goes to OpenAI.
+
+## Author
+
+You can find me on Twitter [@masonzh64428788](https://twitter.com/masonzh64428788).
 
